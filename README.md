@@ -1,41 +1,27 @@
-# Marathon21
+# Projet Marathon 2021
 
-Après avoir récupéré le projet, ne pas oublier de :
+# EQUIPE :
+## DUT Info :
+- HAINAUT Baptiste
+- HOVART Anne-Sophie
+- GOGUILLON Nicolas
 
-- Télécharger les dépendances
-  ```shell
-  composer install
-  ```
-  
-- De copier le fichier `.env.example` dans le fichier `.env`
+## DUT MMI :
+- CLERCQ Ethan
+- FLAHAUT Yohann
+- SERLET Justine
 
-  Adapter le contenu du fichier à votre contexte de développement (connexion à une base de données, ...)
+# SUJET :
 
-- De générer une clè aléatoire
-  ```shell
-  php artisan key:generate
-  ```
+Vous devez réaliser un site de gestion de séries télévisées. On pourra naviguer entre les séries, les saisons, les épisodes, les
+utilisateurs. Vous aurez à cœur de proposer un avis argumenté sur chacune des séries dans un format d’environ 450 mots.
+Vous souhaitez devenir un site référence dans le monde foisonnant des séries.
+Dans le souci de proposer un site complet et attractif, vous ajoutez également des vidéos critiques sur les séries.
+Vous cherchez également à obtenir des réactions de la part de vos lecteurs et à les laisser interagir au maximum avec vous.
+Vous acceptez parfaitement l’idée que vos lecteurs s’expriment et réagissent librement.
+Les utilisateurs anonymes pourront voir l’intégralité du site, mais ne pourront pas gérer les séries qu’ils ont vues, ni poster
+des commentaires.
+Les utilisateurs connectés pourront poster des commentaires, ils pourront également annoter les séries/saisons/épisodes
+qu’ils ont déjà vus.
+Les administrateurs du site pourront valider (modérer) les commentaires des utilisateurs.
 
-## La base de données 
-
-
-**Ne pas oublier de configurer votre base de données dans le fichier `.env`**
-
-La base de données peut être créée à partir des commandes suivantes (sur votre machine locale) :
-
-```shell
- php artisan migrate:fresh
- php artisan db:seed 
-```
-
-Des commentaires aléatoires ont été ajoutés. Des épisodes ont été vus en liaison avec les commentaires (voir le fichier `database/seeders/DatabaseSeeder.php`).
-
-Ou, utiliser la base de données qui vous est proposée sur le serveur marathon.
-
-## Le serveur
-
-Dès que la base de données est opérationnelle, vous pouvez vous connecter en utilisant l'un des 3 utilisateurs créés :
-
-Robert Duchmol robert.duchmol@domain.fr (administrateur, password: password)
-Gérard Martin gerard.martin@domain.fr (password: password)
-Julia Rodrigez julia.rodrigez@domain.fr (password: password)
