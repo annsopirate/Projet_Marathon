@@ -1,0 +1,26 @@
+/* Put your style here */
+body{
+    background-color: #000;
+    color:white;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 1px;
+    background-color: #1a202c;
+}
+
+.btn-primary{
+    background-color: #283F85;
+    border-color: #283F85;
+}
+
+.form-check-input:checked {
+    background-color: #283F85;
+    border-color: #fff;
+}
+
+.form-check form {
+    display: inline;
+}
